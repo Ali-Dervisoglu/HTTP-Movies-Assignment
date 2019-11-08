@@ -44,6 +44,7 @@ const MovieUpdateForm = props => {
     }
 
     return (
+        
         <div>
             <h1>Update Movie</h1>
             <form onSubmit={handleSubmit}>
