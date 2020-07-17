@@ -41,6 +41,7 @@ export default class Movie extends React.Component {
       .delete(`http://localhost:5000/api/movies/${id}`)
       .then((res) => {
         console.log(res);
+        this.props.history.push("/");
       })
       .catch((err) => console.log(err));
   };
